@@ -1,0 +1,18 @@
+symbol: "" #Symbol before nick needed to ping a player.
+
+playerhasturnedoffnotifymessage: "&cThis player has turned off mentions." #Also %receiver% can be used.
+nowignoring: "&cYou are now ignoring %player% mentions!"
+nolongerignoring: "&2You are no longer ignoring %player% mentions!"
+playeroffline: "This player offline"
+ignoreyourself: "&cYou can't ignore yourself"
+plmignoreusage: "Usage: /plm ignore [player]"
+help: "&fPlayer&bMentions &fhelp\n&b/bq ignore [player] &f- Ignore this player mentions.\n&b/bq rl &f- reload plugin config."
+
+configreload: "&aConfig has been reloaded"
+nopermissions: "&cYou don't have permissions to do that!"
+
+format: "%format% &6%message%" #message which will be sent to mentioned player. %format% stands for chat name formatting (<Player>).
+
+needPermission: false #If true player needs "playermention.mention" permission to mention someone.
+enableSound: true #Sound when player gets mentioned.
+sound: "entity.player.levelup" #https://www.digminecraft.com/lists/sound_list_pc.php

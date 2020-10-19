@@ -1,0 +1,10 @@
+main: me.keynadi.PlayerMention.PlayerMentionMain
+name: PlayerMention
+author: Keynadi
+loadbefore: [DiscordSRV]
+version: 2.0
+commands:
+  playermention:
+    description: PlayerMention command.
+    aliases: [plm]
+    usage: "Usage: /plm help"
